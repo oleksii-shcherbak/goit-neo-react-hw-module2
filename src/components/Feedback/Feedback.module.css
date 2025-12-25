@@ -1,0 +1,11 @@
+.feedback {
+  text-transform: capitalize;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.feedback li {
+  font-size: 18px;
+}

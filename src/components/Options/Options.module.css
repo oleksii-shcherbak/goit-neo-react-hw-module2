@@ -1,0 +1,36 @@
+.options {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.optionsButton {
+  background-color: #4caf50;
+  border: 1px solid #45a049;
+  border-radius: 4px;
+  padding: 10px 20px;
+  text-transform: capitalize;
+  color: white;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.optionsButton:hover {
+  background-color: #45a049;
+}
+
+.resetBtn {
+  background-color: #f44336;
+  color: white;
+  border: 1px solid #da190b;
+  border-radius: 4px;
+  padding: 10px 20px;
+  text-transform: capitalize;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.resetBtn:hover {
+  background-color: #da190b;
+}
